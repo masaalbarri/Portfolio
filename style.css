@@ -1,0 +1,340 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+}
+
+   
+
+
+
+header,footer{
+    background-color: #867070;
+    border-radius: 15px 0px;
+    height: 100%;
+    width: 100%;
+    
+    
+
+}
+
+
+body{
+    background-color: rgb(200, 174, 125,0.2);
+    margin: 0;
+}
+
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7px;
+    
+     
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+li {
+        margin: 0 20px;
+        padding: 15px;
+         
+    }
+
+.anav{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.anav:hover{
+    background-color:rgb(245, 235, 235,0.2);
+    border-radius: 15px 0px;
+    transition: all 0.5s;
+}
+
+h1{
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 45px;
+    color: white;
+    background-color :#867070 ;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+article{
+    margin: 100px;
+    
+}
+img{
+    border-radius: 50%;
+}
+h2{
+    width: 20%;
+    margin: 0 auto;
+    font-size: 30px;
+   
+}
+.me{
+    font-size: 25px;
+    padding: 35px;
+}
+address{
+    display: inline;
+}
+
+.text:hover{
+    background-color: rgb(228, 208, 208);
+    border-radius: 20px;
+    transition: 0.5s;
+    padding: 45px
+
+}
+.text{
+    padding: 10px;
+}
+.skils{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 208, 208);
+    margin: 30px 0px;
+}
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 20px;
+    background-color: rgb(134, 112, 112, 0.7);
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    height: 115px;
+    width: 115px;
+}
+
+.cards1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 200px; 
+}
+.card1 {
+    width:400px; 
+    height: 200px;
+    margin-bottom: 20px; 
+    border: 1px solid brown; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.open{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: black;
+    border-radius: 10px;
+    padding: 15px;
+    background-color:rgb(134, 112, 112) ;
+    position: relative;
+    top:50px;
+     
+}
+.open:hover{
+    background-color:rgb(213, 180, 180);
+    transition: all 0.1s;
+
+}
+.ti{
+    font-size: 30px;
+    background-color: rgb(213, 180, 180);
+    padding: 5px;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+i{
+    font-size: 30px;
+    margin: 15px;
+}
+
+
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    section {
+        display: block;
+    }
+
+
+    article{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .me{
+        position: relative;
+        right: 60px;
+        font-size: 17px;
+       
+    }
+    
+    .text:hover{
+        background-color: transparent;
+        
+    
+    }
+}
+@media (min-width: 680px) and (max-width: 1000px) {
+
+    section {
+        display: flex;
+        flex-direction: column; /* توجيه العناصر عمودياً */
+        align-items: center; /* توسيط العناصر على المحور الأفقي */
+        text-align: center; /* توسيط النص داخل العناصر */
+    }
+    
+    .article1 {
+        width: 50%;
+        margin: 20px auto; /* إضافة هامش للتباعد بين العناصر */
+        text-align: center;
+        
+    }
+    
+    .article2 {
+        width: 50%;
+        margin: 20px auto; /* إضافة هامش للتباعد بين العناصر */
+        
+    }
+    .me{
+        font-size: 15px;
+    }
+    
+    
+    
+    .text:hover{
+        background-color: transparent;
+    }
+    img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media (min-width: 580px) and (max-width: 680px)  {
+    section {
+        display: flex;
+        flex-direction: column; /* توجيه العناصر عمودياً */
+        align-items: center; /* توسيط العناصر على المحور الأفقي */
+        text-align: center; /* توسيط النص داخل العناصر */
+    }
+    
+    .article1 {
+        width: 50%;
+        margin: 20px auto; /* إضافة هامش للتباعد بين العناصر */
+        text-align: center;
+        
+    }
+    
+    .article2 {
+        width: 50%;
+        margin: 20px auto; /* إضافة هامش للتباعد بين العناصر */
+        
+    }
+    .me{
+        font-size: 10px;
+    }
+    
+    
+    
+    .text:hover{
+        background-color: transparent;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+    }
+    ul{
+        display: flex;
+    flex-direction: column; /* تنظيم الروابط عمودياً */
+    align-items: center;
+    }
+       
+   span{
+    width: 75px;
+    height: 75px;
+    font-size: 15px;
+   }
+   .card1{
+    width: 400px;
+    
+   }
+
+}
+@media (max-width: 580px) {
+    section {
+        display: flex;
+        flex-direction: column; /* توجيه العناصر عمودياً */
+        align-items: center; /* توسيط العناصر على المحور الأفقي */
+        text-align: center; /* توسيط النص داخل العناصر */
+    }
+    
+    .article1 {
+        width: 50%;
+        margin: 20px auto; /* إضافة هامش للتباعد بين العناصر */
+        text-align: center;
+        
+    }
+    
+    .article2 {
+        width: 50%;
+        margin: 20px auto; /* إضافة هامش للتباعد بين العناصر */
+        
+    }
+    .me{
+        font-size: 10px;
+    }
+    
+    
+    
+    .text:hover{
+        background-color: transparent;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+    }
+    ul{
+        display: flex;
+    flex-direction: column; /* تنظيم الروابط عمودياً */
+    align-items: center;
+    }
+       
+   span{
+    width: 75px;
+    height: 75px;
+    font-size: 15px;
+   }
+   
+}
